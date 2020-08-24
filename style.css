@@ -1,0 +1,1475 @@
+/* ---------------------------------------- */
+/* ==            SUMMARY           		      */
+/*---------------------------------------- */
+
+/* L23		- 1 - Color codes				    */
+/* L45		- 2 - Définition Polices    */
+/* L59		- 3 - Éléments Principaux   */
+/* L71		- 4	- Class 				      	*/
+/* L245		- 5 - Header    				    */
+/* L273		- 6 - Section 1					    */
+/* L302		- 7 - Section 2					    */
+/* L402		- 8 - Section 3		          */
+/* L551		- 9 - Footer        			  */
+/* L621		- 10 - Media Queries 1			*/
+/* L1006	- 11 - Media Queries 2		  */
+/* L1143	- 12 - Media Queries 3 			*/
+/* L1250	- 13 - Media Queries 4 			*/
+
+
+
+
+/*---------------------------------------*/
+/*==			      COLOR CODES				       */
+/*---------------------------------------*/
+/* 	Texte = 		Black (51,51,51)
+					      White #FFFFFF
+      RGB		Stong Azur  (92,173,211)
+      RGB   Light Grey  (103, 106, 111)
+      
+
+	  Background = RGB = 
+    
+    White	#FFFFFF
+    Stong Azur	(92,173,211)
+    Gray92      (235,235,235)
+
+
+
+
+/* ---------------------------------------- */
+/* ==              BASE                    */
+/*---------------------------------------- */
+
+/* ---------------------------------------- */
+/* == 		DÉFINITIONS DES POLICES			*/
+/*---------------------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot'),
+    url('fonts/fontawesome-webfont.svg'),
+    url('fonts/fontawesome-webfont.ttf'),
+    url('fonts/fontawesome-webfont.woff'),
+    url('fonts/FontAwesome.otf');
+}
+
+/*        Font-family: 'roboto'             */
+/* ---------------------------------------- */
+/* == 		ÉLÉMENTS PRINCIPAUX			      	 */
+/*---------------------------------------- */
+
+/*              BODY                  */
+body {
+  font-family: 'roboto';
+  line-height: 1.4;
+  height: 100%;
+
+  margin: 0;
+}
+
+/* ---------------------------------------- */
+/* == 		          CLASS 			        	 */
+/*---------------------------------------- */
+
+/*============== IMAGES ==================*/
+.img-size {
+  width: 100%;
+  height: auto;
+}
+
+/*                 TEXT                  */
+/*=========== Color Text =============== */
+
+.color_text-nav {
+  color: white;
+}
+
+.color_text-slogan {
+  color: rgb(92, 173, 211);
+}
+
+
+.color_strong_azur {
+  color: rgb(92, 173, 211);
+}
+
+.color_black {
+  color: black;
+}
+
+.color_white {
+  color: white;
+}
+
+
+.color_light-grey {
+  color: rgb(103, 106, 111)
+}
+
+/*=============Backgroung Color=================*/
+
+.bck_header {
+  background-color: white;
+}
+
+.bck_nav {
+  background-color: rgb(92, 173, 211);
+}
+
+.bck_nav-portfolio {
+  background-color: #e5e5e5;
+}
+
+.bck_black {
+  background-color: black;
+}
+
+.bck_white {
+  background-color: white;
+}
+
+.bck_strong-azur {
+  background-color: rgb(92, 173, 211);
+}
+
+
+/*               FONT-SIZE            */
+
+.font-nav {
+  font-size: large;
+}
+
+.font-slogan {
+  font-size: large;
+}
+
+.font-p-descriptif-slogan {
+  font-size: small;
+}
+
+.font-h1 {
+  font-size: x-large;
+}
+
+.font-h2 {
+  font-size: large;
+}
+
+.font-p {
+  font-size: medium;
+}
+
+.font-a-portfolio {
+  font-size: medium;
+}
+
+/*                  TEXT FORM               */
+
+.text-al-center {
+  text-align: center;
+}
+
+
+
+/*              MARGIN - PADDING           */
+
+/*.margin-auto {
+  margin: auto;
+}*/
+
+.padding-l {
+  padding-left: 20px;
+}
+
+
+/*                    BORDER                */
+.border {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 6%;
+  height: 6%;
+}
+
+/*                FLEXBOX                   */
+
+
+
+.flex-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-separateur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-design {
+  display: flex;
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-nav-portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-nav-port-ul {
+  display: flex;
+}
+
+.flex-eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*                POSITION                  */
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+/* ---------------------------------------- */
+/* ==             HEADER                   */
+/*---------------------------------------- */
+
+/*Menu*/
+header {
+  position: fixed;
+  z-index: 98;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 73px;
+}
+
+#logo {
+  width: 40%;
+  margin: 5px auto 5px auto;
+}
+
+header nav {
+  height: 30px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* ---------------------------------------- */
+/* ==              SECTION 1               */
+/*---------------------------------------- */
+
+/*VERSION FULL */
+
+.full-size {
+  display: none;
+}
+
+.button-infos {
+  display: none;
+}
+
+/*              ACCUEIL                 */
+/*+++++++++++++++++++++++++++++++++++++*/
+#Accueil {
+  padding-top: 85px;
+}
+
+/*Slogan */
+.slogan {
+  text-align: center;
+}
+
+/* Descriptif slogan */
+.descriptif-slogan {
+  text-align: center;
+  color: rgb(92, 173, 211);
+}
+
+/* ---------------------------------------- */
+/* ==              SECTION 2               */
+/*---------------------------------------- */
+#Services {
+  padding-top: 85px;
+  margin-top: -85px;
+}
+
+/*Partie1 */
+.partie_1 {
+  padding-top: 5%;
+}
+
+.partie_1 h1 {
+  margin: 0;
+}
+
+/*Séparateur*/
+.separateur {
+  height: 5px;
+}
+
+.trait,
+.trait-bis {
+  width: 25px;
+  height: 0.5px;
+  border: 0.3px solid rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+}
+
+.ronds {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(92, 173, 211);
+  border-radius: 10px;
+  border: 5px solid white;
+}
+
+/* Paragraphe */
+
+.partie_1 p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Partie 2 */
+
+.Mac {
+  display: none;
+}
+
+.partie_2 {
+  margin-top: 10%;
+}
+
+/* Items Services */
+.items_services {
+  color: #5cadd3;
+  font-size: 25px;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+
+.rond_items {
+  width: 5px;
+  height: 5px;
+  top: 47%;
+  right: -3px;
+  border-radius: 50%;
+}
+
+/* UX UI SEO DESIGN */
+.ux-ui-seo-design {
+  margin: auto;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
+/*Title*/
+.title-description {
+  width: 80%;
+}
+
+/*Article H2*/
+article h2 {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+/*Article Paragraphe*/
+article p {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+/* ---------------------------------------- */
+/* ==              SECTION 3               */
+/*---------------------------------------- */
+#Portfolio {
+  padding-top: 95px;
+  margin-top: -95px;
+}
+
+.Section3 {
+  background-color: #F5F5F5;
+}
+
+/* H1 */
+.Section3 h1 {
+  margin: 0;
+}
+
+/* Description */
+.description-nos-projets {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/* NAVIGATION Portfolio */
+
+/* UL Nav */
+.Section3 nav ul {
+  background-color: rgb(192, 192, 192);
+  border-radius: 5px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+/* LI */
+.Section3 li {
+  width: 70px;
+  height: 20px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 5%;
+}
+
+.li-static {
+  background-color: #5cadd3;
+  height: 20px;
+  border-radius: 5px 0px 0px 5px;
+  border-bottom: 5px solid #468cad;
+}
+
+.li-nostatic {
+  text-align: center;
+}
+
+/* a */
+.Section3 a {
+  text-decoration: none;
+}
+
+/* A : Hover */
+.Section3 li:hover a {
+  color: white;
+}
+
+/* Li HOVER */
+.Section3 li:hover {
+  background-color: #5cadd3;
+  border-bottom: 5px solid #468cad;
+  height: 20px;
+}
+
+/* Font Awesome Fleche */
+.fa-caret-down {
+  visibility: hidden;
+  top: 38px;
+  left: 35px;
+  color: #468cad;
+}
+
+.li-static .fa-caret-down {
+  visibility: visible;
+  top: 38px;
+  left: 35px;
+  color: #468cad;
+}
+
+/* FA CARET HOVER */
+li:hover .fa-caret-down {
+  visibility: visible;
+}
+
+/*===== Portfolio=====*/
+
+.Projets-full-size {
+  display: none;
+}
+
+.portfolio {
+  width: 80%;
+  margin: auto;
+}
+
+/* Figure */
+.Projet1-mobile figure {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+/* lien Site */
+.lien_site-mobile {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 5px;
+}
+
+/* H3 */
+.lien_site-mobile h3 {
+  margin: 0px;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+/* Paragraphe*/
+.lien_site-mobile p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+/* FontAwesome EYE */
+.fa-eye {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid white;
+  left: 80%;
+  top: -36%;
+}
+
+
+/* ---------------------------------------- */
+/* ==               FOOTER                 */
+/*---------------------------------------- */
+
+/*          Formulaire de Contact          */
+
+#Contact {
+  padding-top: 85px;
+  margin-top: -85px;
+}
+
+/*H2*/
+#Contact h2 {
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+/* Input */
+.formulaire input {
+  width: 86%;
+  height: 25px;
+}
+
+.formulaire {
+  border: 1px solid rgb(92, 173, 211);
+  border-radius: 25px;
+  width: 80%;
+  height: 400px;
+  line-height: 3px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 4%;
+}
+
+/* Span */
+.formulaire span {
+  font-weight: bold;
+}
+
+/* Button */
+.button-formulaire {
+  width: 100px;
+  height: 33px;
+  margin-top: 20px;
+}
+
+.button-formulaire a {
+  text-decoration: none;
+  height: 33px;
+  width: 40px;
+  border-radius: 5px;
+  border: 0;
+  border-bottom: 3px solid rgb(68, 148, 187);
+  font-size: 12px;
+  padding: 10px 5px 10px 5px;
+}
+
+
+/* Textarea */
+textarea {
+  width: 80%;
+  height: 70px;
+}
+
+/*          MAP         */
+
+/* Iframe */
+iframe {
+  width: 100%;
+  height: 750px;
+  border: 0;
+  z-index: 5;
+}
+
+
+/* ---------------------------------------- */
+/* ==               MEDIAS                  */
+/*                  QUERIES                 */
+/*---------------------------------------- */
+
+/* ---------------------------------------- */
+/* ==              MEDIA 1                 */
+/*---------------------------------------- */
+@media screen and (min-width: 600px) {
+
+
+  /*                  TEXT              */
+  /*               FONT-SIZE            */
+
+  .font-nav {
+    font-size: small;
+  }
+
+  .font-slogan {
+    font-size: medium;
+  }
+
+  .font-p-descriptif-slogan {
+    font-size: xx-small;
+  }
+
+  /*        COLOR         */
+  .bck_nav {
+    background-color: white;
+  }
+
+  .color_text-nav {
+    color: black;
+  }
+
+  .color_text-slogan {
+    color: white;
+  }
+
+  /* ---------------------------------------- */
+  /* ==               HEADER                  */
+  /*---------------------------------------- */
+  .full-size {
+    display: inherit;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* Logo + Navigation */
+
+  /*Logo*/
+  #logo {
+    width: 20%;
+    align-items: center;
+    padding: 0;
+    margin: unset;
+  }
+
+  /*Nav*/
+
+  header nav {
+    width: 30%;
+    padding-top: 0;
+  }
+
+  header nav a {
+    padding-top: 26px;
+    padding-bottom: 28px;
+  }
+
+
+  /* Top bleu */
+  header nav a:hover {
+    border-top: 2px solid rgb(92, 173, 211);
+    text-align: center;
+    top: 0px;
+    padding-top: 25px;
+  }
+
+
+  /* ---------------------------------------- */
+  /* ==              SECTION 1               */
+  /*---------------------------------------- */
+  #Accueil {
+    padding-top: 73px;
+  }
+
+  /*------ Slogan + descriptif------*/
+
+  .slogan_accueil {
+    display: none;
+  }
+
+  /*-------------Image--------*/
+
+  figure {
+    margin: 0;
+    position: relative;
+  }
+
+  .full-size {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .slogan {
+    width: 65%;
+    height: 60%;
+    text-align: unset;
+    margin: auto 0 auto 0;
+    color: white;
+  }
+
+  /*------- Fleches Slide ------*/
+  figcaption {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+
+  .fleche_gauche {
+    color: white;
+    display: flex;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 0 40px 40px 0;
+    height: 40px;
+    width: 20px;
+    opacity: 0.8;
+    align-items: center;
+    margin: auto 0 auto 0;
+    cursor: pointer;
+  }
+
+
+  .fleche_droite {
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    border-radius: 40px 0 0 40px;
+    height: 40px;
+    width: 20px;
+    opacity: 0.75;
+    align-items: center;
+    margin: auto 0 auto 0;
+    cursor: pointer;
+  }
+
+  .fleche_droite i {
+    padding-left: 12px;
+  }
+
+
+  /*---------Slider Bas-----------*/
+
+  .slider-bottom-img {
+    display: initial;
+    bottom: 5px;
+    height: 4px;
+    width: 100%;
+    opacity: 0.10;
+  }
+
+  .slider-bottom-blue {
+    display: initial;
+    height: 3px;
+    width: 80px;
+    bottom: 6px;
+  }
+
+  /*--------Button-------*/
+
+  .button-infos {
+    display: inherit;
+    left: 14%;
+    bottom: 14%;
+    margin: 0;
+  }
+
+  .button-infos a {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(68, 148, 187);
+    padding: 5px 5px 5px 5px;
+    width: 60px;
+    font-size: 10px;
+  }
+
+
+
+  /* ---------------------------------------- */
+  /* ==              SECTION 2               */
+  /*---------------------------------------- */
+
+  #Services {
+    padding-top: 60px;
+    margin-top: -60px;
+  }
+
+  /*----------- Partie 1 ----------- */
+
+  .partie_1 p {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /*----------- Partie 2 -----------*/
+  .Mac {
+    display: inherit;
+    width: 60%;
+    margin: auto;
+  }
+
+  .flex-design {
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+
+  .items_services {
+    width: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+  }
+
+  article h2 {
+    text-align: center;
+  }
+
+  article p {
+    width: 80%;
+  }
+
+  /* ---------------------------------------- */
+  /* ==              SECTION 3               */
+  /*---------------------------------------- */
+  #Portfolio {
+    padding-top: 75px;
+    margin-top: -75px;
+  }
+
+  .description-nos-projets {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /*+++++++++ Portfolio +++++++++++++*/
+
+  .li-static,
+  .li-nostatic {
+    cursor: pointer;
+  }
+
+  .flex_portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Projets-full-size {
+    display: inherit;
+  }
+
+  .Projet1-mobile figure,
+  .Projets-full-size figure {
+    margin: 15px;
+    width: unset;
+  }
+
+  .Projet1-mobile,
+  .Projets-full-size {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+  }
+
+  .lien_site-mobile,
+  .lien-site {
+    bottom: 4px;
+    width: 100%;
+    height: 28%;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    margin-bottom: 2px;
+  }
+
+  .fa-eye {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+    left: 80%;
+    top: -25%;
+  }
+
+  h3 {
+    font-size: small;
+    margin: 0;
+    padding-top: 6px;
+    padding-left: 10px;
+  }
+
+  .lien-site p {
+    padding-bottom: 5px;
+    margin: 0;
+    padding-left: 10px;
+  }
+
+
+
+  /* ---------------------------------------- */
+  /* ==              FOOTER                   */
+  /*---------------------------------------- */
+  footer {
+    position: relative;
+  }
+
+  .formulaire {
+    position: absolute;
+    z-index: 9;
+    right: 1%;
+    background-color: rgba(255, 255, 255, .7);
+    width: 200px;
+    height: 300px;
+    top: 278px;
+    border: none;
+    opacity: 1;
+    border-radius: unset;
+    padding-bottom: 20px;
+  }
+
+  #Contact h2 {
+    font-size: 18px;
+  }
+
+  #Contact span {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #Contact p {
+    font-size: 12px;
+  }
+
+  .formulaire input {
+    width: 90%;
+    height: 10px;
+    padding-left: 5px;
+  }
+
+  .formulaire textarea {
+    padding-left: 5px;
+  }
+
+  #button-formulaire {
+    width: 55%;
+  }
+
+  .filtre {
+    background-color: #d2f0fe;
+    width: 100%;
+    height: 770px;
+    opacity: 0.50;
+    z-index: 8;
+    pointer-events: none;
+  }
+
+}
+
+/* ---------------------------------------- */
+/* ==              MEDIA 2                 */
+/*---------------------------------------- */
+@media screen and (min-width: 900px) {
+
+  /* Font */
+
+  .font-slogan {
+    font-size: x-large
+  }
+
+  .font-p-descriptif-slogan {
+    font-size: x-small;
+  }
+
+  .font-p {
+    font-size: x-small;
+  }
+
+  .font-h3 {
+    font-size: small;
+  }
+
+  /* SECTION 1 */
+
+  #logo {
+    width: 250px;
+  }
+
+  /*Button*/
+  .button-infos {
+    left: 14%;
+    bottom: 25%;
+    width: 80%;
+  }
+
+  .button-infos a {
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+
+  }
+
+  /* Fleche */
+  .fleche_gauche,
+  .fleche_droite {
+    height: 60px;
+    width: 30px;
+  }
+
+  .fleche_gauche i {
+    font-size: 20px;
+    padding-left: 7px;
+  }
+
+  .fleche_droite i {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  /* SECTION 2 */
+
+  /*Partie 2 */
+  .partie_2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+  }
+
+  /* Mac */
+  .Mac {
+    height: 300px;
+    width: 500px;
+    margin: 0;
+  }
+
+  /* Description Services */
+  .description-design {
+    width: 50%;
+    padding-top: 50px;
+  }
+
+  /* UX Design */
+  .ux-ui-seo-design {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  /* Items */
+  .items_services {
+    margin: 0 20px 0 0;
+    width: 40px;
+  }
+
+  /* Article */
+  article {
+    width: 50%;
+  }
+
+  /* H2 */
+  article h2 {
+    margin: 0;
+    text-align: unset;
+  }
+
+  /* Paragraphe */
+  article p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .Projet1-mobile,
+  .Projets-full-size {
+    width: 25%;
+    margin: 0;
+  }
+
+  /* SECTION 3 */
+
+  /* Portfolio */
+  .lien_site-mobile,
+  .lien-site {
+    bottom: 4px;
+    width: 100%;
+    height: 28%;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    margin-bottom: 2px;
+
+    opacity: 0;
+
+  }
+
+  figure:hover .lien-site,
+  figure:hover .lien_site-mobile {
+    opacity: 1;
+    animation: LienDuPortfolio 3s;
+    -webkit-animation: LienDuPortfolio 3s;
+    /*Multi-Navigateur Safari/Chrome*/
+  }
+
+
+  figure:hover .lien-site .fa-eye,
+  figure:hover .lien_site-mobile .fa-eye {
+    animation: eyes 3s;
+    -webkit-animation: eyes 3s;
+    /*Multi-Navigateur Safari/Chrome*/
+  }
+
+  /* i */
+  .fa-eye {
+    width: 20px;
+    height: 20px;
+    top: -32%;
+  }
+
+}
+
+/* ---------------------------------------- */
+/* ==              MEDIA 3                 */
+/*---------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  /* FONT SIZE */
+  .font-nav {
+    font-size: medium;
+  }
+
+  .font-slogan {
+    font-size: xx-large;
+  }
+
+  .font-p-descriptif-slogan {
+    font-size: small;
+  }
+
+  .font-p {
+    font-size: small
+  }
+
+  /* HEADER */
+  header {
+    height: 80px;
+  }
+
+  /* Nav */
+
+  header nav a {
+    padding-top: 28px;
+    padding-bottom: 30px;
+  }
+
+  header nav a:hover {
+    padding-top: 26px;
+  }
+
+
+  /*SECTION 1 */
+
+  /* Fleche */
+  .fleche_gauche,
+  .fleche_droite {
+    height: 80px;
+    width: 40px;
+  }
+
+  .fleche_gauche i {
+    font-size: 24px;
+    padding-left: 10px;
+  }
+
+  .fleche_droite i {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  /* PORTFOLIO */
+  .portfolio {
+    width: 100%;
+  }
+
+  .fa-eye {
+    width: 30px;
+    height: 30px;
+    top: -31%;
+  }
+
+  /* FORMULAIRE */
+
+  .formulaire {
+    width: 300px;
+    height: 350px;
+    right: 10%;
+    top: 30%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  /* Input */
+  .formulaire input {
+    height: 20px;
+  }
+
+  /* Form */
+  form {
+    padding-top: 3px;
+  }
+
+  form input,
+  textarea {
+    font-size: 10px;
+  }
+
+  .formulaire textarea {
+    width: 252px;
+    height: 150px;
+  }
+
+  #button-formulaire {
+    width: 30%;
+    height: 20px;
+    border-radius: 2px;
+    padding-right: 5px;
+  }
+
+}
+
+/* ---------------------------------------- */
+/* ==              MEDIA 4                 */
+/*---------------------------------------- */
+
+@media screen and (min-width: 1800px) {
+
+  /* FONT SIZE */
+
+  .font-slogan {
+    font-size: 50px;
+  }
+
+  .font-p-descriptif-slogan {
+    font-size: 20px;
+  }
+
+  .font-h1 {
+    font-size: 40px;
+  }
+
+  .font-p {
+    font-size: 20px;
+  }
+
+  /* HEADER */
+
+  header {
+    height: 100px;
+  }
+
+  /* Nav */
+
+  header nav a {
+    padding-top: 38px;
+    padding-bottom: 40px;
+  }
+
+  header nav a:hover {
+    padding-top: 36px;
+  }
+
+
+  /* SECTION 1 */
+
+  /* Button */
+  .button-infos a {
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+  }
+
+  /*Slider */
+  .slider-bottom-img {
+    bottom: 1%;
+  }
+
+  .slider-bottom-blue {
+    width: 100px;
+    height: 4px;
+  }
+
+  /* Séparateur */
+  .trait,
+  .trait-bis {
+    width: 50px;
+    height: 1px;
+  }
+
+  .ronds {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* SECTION 2 */
+
+  /* Partie 2 */
+  /* UX */
+  .ux-ui-seo-design {
+    padding-bottom: 40px;
+  }
+
+  /* Items */
+  .items_services {
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+  }
+
+  .rond_items {
+    width: 10px;
+    height: 10px;
+    right: -5px;
+  }
+
+  /* H2 */
+  .font-h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+
+  /* SECTION 3 */
+  /* PORTFOLIO */
+
+  .lien_site-mobile h3,
+  .lien-site h3 {
+    font-size: 20px;
+  }
+
+  .fa-eye {
+    width: 40px;
+    height: 40px;
+    top: -28%;
+  }
+
+  /* FOOTER */
+
+  /* Formulaire */
+  .formulaire {
+    width: 300px;
+    height: 405px;
+  }
+
+  /* H2*/
+  .formulaire h2 {
+    font-size: 22px;
+  }
+
+  /*Paragraphe et Span */
+  .formulaire p,
+  .formulaire span {
+    font-size: 14px;
+  }
+
+  /* button formulaire*/
+  #button-formulaire {
+    width: 40%;
+  }
+
+  /* Input et Textarea */
+  form input,
+  textarea {
+    font-size: 14px;
+  }
+
+  .formulaire input {
+    height: 20px;
+  }
+
+  form textarea {
+    width: 84%;
+    height: 140px;
+  }
+}
+
+
+/*+++++++++ TRANSITION ++++++++ */
+
+@keyframes LienDuPortfolio {
+  0% {
+    height: 0%;
+  }
+
+  100% {
+    height: 28%;
+  }
+}
+
+@-webkit-keyframes LienDuPortfolio {
+  0% {
+    height: 0%;
+  }
+
+  100% {
+    height: 28%;
+  }
+}
+
+@keyframes eyes {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes eyes {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
